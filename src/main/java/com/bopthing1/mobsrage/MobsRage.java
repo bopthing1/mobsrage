@@ -1,5 +1,6 @@
 package com.bopthing1.mobsrage;
 
+import com.bopthing1.mobsrage.sound.ModSounds;
 import com.mojang.logging.LogUtils;
 import net.minecraft.client.Minecraft;
 import net.minecraft.world.level.block.Blocks;
@@ -26,6 +27,8 @@ public class MobsRage
     public MobsRage()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModSounds.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);

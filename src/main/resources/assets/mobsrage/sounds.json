@@ -1,0 +1,14 @@
+{
+  "rage1": {
+    "subtitle": "sounds.mobsrage.rage",
+    "sounds": [
+      "mobsrage:rage1"
+    ]
+  },
+  "rage2": {
+    "subtitle": "sounds.mobsrage.rage",
+    "sounds": [
+      "mobsrage:rage2"
+    ]
+  }
+}
